@@ -5,6 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>African Specialist Referrals — World-class specialists, found for you</title>
 <meta name="description" content="ASR connects patients and families across Africa with vetted specialist doctors and hospitals — at home and abroad. End-to-end coordination, transparent costs, and care that stays human.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="African Specialist Referrals — World-class specialists, found for you">
+<meta property="og:description" content="World-class specialist care for patients across Africa — at home and abroad. Vetted hospitals, transparent costs, and a care manager beside you.">
+<meta property="og:image" content="https://buildwithap.github.io/asr-website/og.jpg">
+<meta property="og:url" content="https://buildwithap.github.io/asr-website/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="African Specialist Referrals">
+<meta name="twitter:description" content="World-class specialist care for patients across Africa — at home and abroad.">
+<meta name="twitter:image" content="https://buildwithap.github.io/asr-website/og.jpg">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,7 +59,7 @@ p{color:var(--ink-soft)}
 .btn-ghost:hover{background:var(--ink);color:var(--cream);transform:translateY(-2px)}
 .btn-light{background:var(--paper);color:var(--ink);border-color:var(--line)}
 .btn-light:hover{border-color:var(--clay);color:var(--clay)}
-.site-header{position:sticky;top:0;z-index:50;background:rgba(251,244,234,.82);backdrop-filter:saturate(140%) blur(12px);border-bottom:1px solid var(--line)}
+.site-header{position:sticky;top:0;z-index:50;background:#FFFFFF;border-bottom:1px solid var(--line)}
 .nav{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:14px 24px;max-width:var(--maxw);margin:0 auto}
 .brand{display:flex;align-items:center;gap:12px}
 .brand .logo-mark{width:42px;height:42px;flex:none}
@@ -200,13 +209,7 @@ section{padding:62px 0}
 <header class="site-header">
   <nav class="nav">
     <a class="brand" href="#home" aria-label="African Specialist Referrals — home">
-      <svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true">
-        <circle cx="24" cy="24" r="18.5" fill="none" stroke="#E63A38" stroke-width="3.4"/>
-        <polyline points="17,33 24,14 31,33" fill="none" stroke="#E63A38" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
-        <line x1="20" y1="27.5" x2="28" y2="27.5" stroke="#E63A38" stroke-width="3" stroke-linecap="round"/>
-        <circle cx="24" cy="13" r="3" fill="#F5C518"/>
-      </svg>
-      <span class="b-text"><span class="b-acr">ASR</span><span class="b-full">African Specialist Referrals</span></span>
+      <img src="logo-header.png" alt="ASR — African Specialist Referrals" style="height:46px;width:auto;display:block">
     </a>
     <div class="nav-links">
       <a data-nav href="#home">Home</a>
@@ -245,10 +248,8 @@ section{padding:62px 0}
     </div>
     <div class="hero-art reveal">
       <div class="hero-photo">
-        <div class="ph">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 20a5.5 5.5 0 0 1 11 0"/><circle cx="17" cy="9" r="2.6"/><path d="M15 20a4.5 4.5 0 0 1 6.5-4"/></svg>
-          <span class="ph-cap">Add a warm photo here — a patient and family, or a doctor with a patient</span>
-        </div>
+        <img src="hero.jpg" alt="A patient and his daughter at home, looking hopefully toward the window" style="width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block">
+
         <div class="arc" aria-hidden="true"></div>
         <div class="badge-float">
           <span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
@@ -474,7 +475,7 @@ section{padding:62px 0}
 <section style="padding-top:18px">
   <div class="container">
     <div class="grid-2" style="gap:46px;align-items:center">
-      <div class="reveal"><div class="hero-photo" style="aspect-ratio:4/3;border-radius:var(--r-xl)"><div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V8l7-4 7 4v13M9 21v-5h6v5"/><circle cx="12" cy="11" r="1.4"/></svg><span class="ph-cap">Add a photo — your team, your office, or a patient moment</span></div></div></div>
+      <div class="reveal"><div class="hero-photo" style="aspect-ratio:4/3;border-radius:var(--r-xl)"><img src="about.jpg" alt="The ASR team in our Lagos office" style="width:100%;height:100%;object-fit:cover;display:block"></div></div>
       <div class="reveal">
         <h2 style="margin-bottom:14px">Why we exist</h2>
         <p style="margin-bottom:14px">When the care you need isn't down the road, the hardest part isn't the treatment — it's the not knowing. Which specialist? Which hospital? What will it cost? Is travel even worth it?</p>
@@ -499,11 +500,11 @@ section{padding:62px 0}
   <div class="container">
     <div class="section-head center reveal"><span class="eyebrow" style="justify-content:center">Our people</span><h2>A small team that answers the phone</h2><p class="lead" style="margin:10px auto 0">Care managers, clinical advisors and travel coordinators — the people who'll know your name.</p></div>
     <div class="grid-3">
-      <div class="card reveal" style="text-align:center"><div class="hero-photo" style="aspect-ratio:1;border-radius:50%;width:120px;margin:0 auto 16px;box-shadow:none"><div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="9" r="3.5"/><path d="M5 20a7 7 0 0 1 14 0"/></svg></div></div><h3>Name, Founder</h3><p>Add a short bio — what drew them to this work.</p></div>
-      <div class="card reveal" style="text-align:center"><div class="hero-photo" style="aspect-ratio:1;border-radius:50%;width:120px;margin:0 auto 16px;box-shadow:none"><div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="9" r="3.5"/><path d="M5 20a7 7 0 0 1 14 0"/></svg></div></div><h3>Name, Clinical lead</h3><p>Add a short bio — their specialty and experience.</p></div>
-      <div class="card reveal" style="text-align:center"><div class="hero-photo" style="aspect-ratio:1;border-radius:50%;width:120px;margin:0 auto 16px;box-shadow:none"><div class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="9" r="3.5"/><path d="M5 20a7 7 0 0 1 14 0"/></svg></div></div><h3>Name, Care manager</h3><p>Add a short bio — languages spoken, what they love.</p></div>
+      <div class="card reveal" style="text-align:center"><div class="hero-photo" style="aspect-ratio:1;border-radius:50%;width:120px;margin:0 auto 16px;box-shadow:none"><img src="team-1.jpg" alt="Disha" style="width:100%;height:100%;object-fit:cover;display:block"></div><h3>Disha</h3><p>Add role &amp; a short bio.</p></div>
+      <div class="card reveal" style="text-align:center"><div class="hero-photo" style="aspect-ratio:1;border-radius:50%;width:120px;margin:0 auto 16px;box-shadow:none"><img src="team-2.jpg" alt="Dennis" style="width:100%;height:100%;object-fit:cover;display:block"></div><h3>Dennis</h3><p>Add role &amp; a short bio.</p></div>
+      <div class="card reveal" style="text-align:center"><div class="hero-photo" style="aspect-ratio:1;border-radius:50%;width:120px;margin:0 auto 16px;box-shadow:none"><img src="team-3.jpg" alt="Diana" style="width:100%;height:100%;object-fit:cover;display:block"></div><h3>Diana</h3><p>Add role &amp; a short bio.</p></div>
     </div>
-    <p class="note reveal" style="margin-top:24px;display:block;text-align:center;background:none;color:var(--ink-soft)">Replace these placeholders with real team photos and bios before launch.</p>
+    <p class="note reveal" style="margin-top:24px;display:block;text-align:center;background:none;color:var(--ink-soft)">Add each person's role and a short bio to finish this section.</p>
   </div>
 </section>
 <section>
@@ -572,8 +573,8 @@ section{padding:62px 0}
     <div class="section-head reveal"><span class="eyebrow">Logo</span><h2>The mark &amp; lockups</h2></div>
     <div class="grid-3">
       <div class="reveal"><div class="logo-box">
-        <svg width="240" height="64" viewBox="0 0 380 100" aria-label="ASR primary lockup"><circle cx="42" cy="50" r="26" fill="none" stroke="#E63A38" stroke-width="4.5"/><polyline points="31,66 42,28 53,66" fill="none" stroke="#E63A38" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="35" y1="57" x2="49" y2="57" stroke="#E63A38" stroke-width="4" stroke-linecap="round"/><circle cx="42" cy="26" r="4.2" fill="#F5C518"/><text x="92" y="50" font-family="Fraunces, serif" font-size="40" font-weight="700" letter-spacing="2" fill="#161616">ASR</text><text x="93" y="73" font-family="'Hanken Grotesk', sans-serif" font-size="12" font-weight="600" letter-spacing="2.4" fill="#565654">AFRICAN SPECIALIST REFERRALS</text></svg>
-      </div><p class="note" style="margin-top:12px">Primary lockup</p></div>
+        <img src="logo-full.png" alt="ASR Medical Tourism logo" style="max-width:240px;width:100%;height:auto;display:block">
+      </div><p class="note" style="margin-top:12px">Primary logo</p></div>
       <div class="reveal"><div class="logo-box dark">
         <svg width="240" height="64" viewBox="0 0 380 100" aria-label="ASR reversed lockup"><circle cx="42" cy="50" r="26" fill="none" stroke="#F5C518" stroke-width="4.5"/><polyline points="31,66 42,28 53,66" fill="none" stroke="#F5C518" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="35" y1="57" x2="49" y2="57" stroke="#F5C518" stroke-width="4" stroke-linecap="round"/><circle cx="42" cy="26" r="4.2" fill="#F5C518"/><text x="92" y="50" font-family="Fraunces, serif" font-size="40" font-weight="700" letter-spacing="2" fill="#FFFFFF">ASR</text><text x="93" y="73" font-family="'Hanken Grotesk', sans-serif" font-size="12" font-weight="600" letter-spacing="2.4" fill="#C9B79E">AFRICAN SPECIALIST REFERRALS</text></svg>
       </div><p class="note" style="margin-top:12px">Reversed (dark backgrounds)</p></div>

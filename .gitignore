@@ -1,0 +1,10 @@
+# Full-resolution source uploads — the site uses the optimised .jpg files
+# and the two logo PNGs below. Keep originals locally, out of the repo.
+*.png
+!logo-header.png
+!logo-full.png
+_*.png
+
+# Internal working notes — keep these out of the public repo
+LAUNCH-CHECKLIST.md
+image-briefs.md
